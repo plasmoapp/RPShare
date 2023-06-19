@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "rpshare",
+	"version": "${version}",
+	"name": "Resource Pack Share",
+	"description": "Share resource packs using written books",
+	"authors": ["KPidS"],
+	"contact": {
+		"homepage": "https://github.com/plasmoapp",
+		"sources": "https://github.com/plasmoapp/ResourcePackShare"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/template-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			{
+				"value": "com.plasmoverse.rpshare.ResourcePackShareClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"rpshare.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-language-kotlin": ">=1.8.22"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
