@@ -1,7 +1,6 @@
 package com.plasmoverse.rpshare
 
-import RPShareCommon
-import extension.asPlainText
+import com.plasmoverse.rpshare.extension.asPlainText
 import net.kyori.adventure.inventory.Book
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.event.ClickEvent

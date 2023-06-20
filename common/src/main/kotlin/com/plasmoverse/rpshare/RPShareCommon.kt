@@ -1,3 +1,5 @@
+package com.plasmoverse.rpshare
+
 import java.net.URL
 
 object RPShareCommon {

@@ -1,6 +1,6 @@
 package com.plasmoverse.rpshare.ktmixin
 
-import RPShareCommon
+import com.plasmoverse.rpshare.RPShareCommon
 import com.plasmoverse.rpshare.getPageAsString
 import com.plasmoverse.rpshare.gui.DownloadPromptScreen
 import com.plasmoverse.rpshare.model.DownloadData
